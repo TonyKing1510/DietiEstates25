@@ -1,0 +1,13 @@
+Requisiti Non Funzionali e Di Dominio:
+	Il sistema deve essere disponibile il 99% del tempo
+	Il sistema deve rispondere entro tot millisecondi
+	Il sistema deve essere sviluppato secondo un linguaggio Object Oriented
+	Il sistema deve essere distribuito
+	Il sistema deve controllare se nell'inserimento di un immobile sia presente la classe energetica secondo il  Decreto Legislativo 192/2005
+	Il sistema deve controllare se nell'inserimento di un immobile ci sia la sua Località (comune, indirizzo e numero civico) affinché le informazioni siano precise per gli utenti 	finali.
+	il sistema deve supportare diverse tipologie di immobili (es. residenziale, commerciale, industriale)
+	Il sistema deve controllare se nell'inserimento di un immobile siano specificati i metri quadri e il piano , per la trasparenza dell'annuncio
+	Il sistema deve controllare se è stato inserito il costo dell'immobile
+	Il sistema deve controllare se si tratta di un affitto o vendita dell'immobile.
+	Il sistema deve essere conforme alla legge GPDR (consenso esplicito agli utenti, spiegando in modo chiaro e comprensibile perché e come saranno usati i dati, visualizzare i dati 	raccolti su di loro e poterli modificare o eliminare)
+	
