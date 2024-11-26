@@ -1,0 +1,22 @@
+FAQ
+1)Ti sono state fornite delle credenziali di amministratore?(da decidere ancora come fare o con un piccolo applicativo o viene fornito da degli sviluppatori)
+
+
+Se ti sono state fornite delle credenziali di amministratore, allora sei un gestore dell'agenzia immobiliare. In questo caso, clicca su "Sei un gestore dell'agenzia? Clicca qui!" in M1, inserisci le tue credenziali e, se sei un admin, ti verrà mostrata una specifica dashboard. Se invece il tuo account è stato creato da un admin, sei comunque un gestore dell'agenzia ma non un amministratore, e quindi verrà visualizzata un'altra dashboard.
+
+
+2)Sei un amministratore e vuoi creare altri account di supporto?(cioè creare altri gestori dell'azienda che non hanno i tuoi permessi) 
+
+Allora una volta registrato clicca su crea nella tua dashboard e compila il form per creare un nuovo account, una volta creato l'account ti verranno comunicati tramite e-mail le credenziali create e potrai condividerle con chi vuoi.
+
+
+
+3)Sei un gestore e vuoi creare account per gli agenti immobiliari?
+
+Allora compila il form adatto dove inserirai informazioni personali sull'agente e una volta creato verranno mandate tramite e-mail all'email specificata in fase di creazione dell'account.
+
+
+4)Se sei un agente immobiliare allora ti saranno stati forniti delle credenziali dai gestori delle agenzie immobiliari,
+queste credenziali possono essere trovate nella tua casella e-mail.
+
+
