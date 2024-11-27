@@ -1,9 +1,9 @@
 module com.example.prova2.View {
     requires javafx.controls;
     requires javafx.fxml;
-    requires java.desktop;
     requires java.sql;
     requires java.net.http;
+    requires javafx.graphics;
 
 
     opens com.example.prova2.View to javafx.fxml;
