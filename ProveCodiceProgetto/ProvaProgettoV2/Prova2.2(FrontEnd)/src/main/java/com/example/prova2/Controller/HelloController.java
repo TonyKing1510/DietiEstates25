@@ -2,6 +2,7 @@ package com.example.prova2.Controller;
 
 import com.example.prova2.Model.User;
 import com.example.prova2.requester.Requester;
+import com.example.prova2.View.*;
 import javafx.animation.FadeTransition;
 import javafx.animation.TranslateTransition;
 import javafx.fxml.FXML;
@@ -16,6 +17,7 @@ import javafx.scene.control.Alert.AlertType;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 import java.io.IOException;
+import com.example.prova2.View.ViewManagerAgente;
 
 
 
@@ -35,34 +37,16 @@ public class HelloController {
 
     @FXML
     private void handleButtonAgente() throws IOException, InterruptedException {
-        // Carica il nuovo file FXML
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/prova2/ProvaLoginAgente.fxml"));
-        Parent root = loader.load();
-
-// Ottieni lo stage attuale dalla scena corrente
+        // Ottieni lo stage corrente dal contesto della scena
         Stage currentStage = (Stage) emailField.getScene().getWindow();
 
-// Crea la transizione Fade Out (fade verso trasparente)
-        FadeTransition fadeOut = new FadeTransition(Duration.seconds(0.3), currentStage.getScene().getRoot());
-        fadeOut.setFromValue(1.0);  // Partenza completamente visibile
-        fadeOut.setToValue(0.0);    // Fine completamente trasparente
-        fadeOut.setOnFinished(event -> {
-            // Cambia la scena al termine del fade out
-            Scene newScene = new Scene(root, 1280, 800);
-            currentStage.setScene(newScene);
-            currentStage.setTitle("Agente Immobiliare Dashboard");
+        // Crea un'istanza di ViewManager e passa lo stage
+       ViewManagerAgente viewManager = new ViewManagerAgente(currentStage);
 
-            // Crea la transizione Fade In (ripristina visibilità)
-            FadeTransition fadeIn = new FadeTransition(Duration.seconds(1), root);
-            fadeIn.setFromValue(0.0);  // Partenza trasparente
-            fadeIn.setToValue(1.0);    // Fine completamente visibile
-            fadeIn.play();
-        });
-
-// Avvia la transizione di Fade Out
-        fadeOut.play();
-
+        // Passa il nome del file FXML per la nuova scena
+        viewManager.changeSceneWithFade("/com/example/prova2/ProvaLoginAgente.fxml");
     }
+
 
 
 
