@@ -1,0 +1,4 @@
+V1 (16/11/2024) : prova di DAO e visualizzazione della pagina fatta con SceneBuilder
+
+
+V2 (27/11/2024) : Abbiamo provato a costruire l'architettura sia Front-End che Back-End, abbiamo usato per il front end "MVC" ma con il convoglio di tutte le richieste,per il Backend, al requester invece per il back end abbiamo controller(si occupa di parlare col frontend) , service(servizi offerti, tipo AddUser. Parla col Dao) e Dao(parla col database). Aggiunta di Test in jUnit per databaseConnection e test sulle insert. Le schermate sono le stesse( solo M1 )
