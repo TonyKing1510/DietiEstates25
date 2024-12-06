@@ -31,9 +31,9 @@ h
 0src/main/java/com/example/prova2/model/User.java,e\9\e994a8e1287a326a81022c0ed814a0eda25985af
 b
 2src/main/java/com/example/prova2/model/Utente.java,7\9\795b0466587d142aeac23ab9bd56a892323d2e19
-c
-3src/main/java/com/example/prova2/model/Gestore.java,7\0\702743a6d0d4c2aa38204675930fe3163a2c9ef1
 u
 Esrc/main/java/com/example/prova2/model/GestoreAgenziaImmobiliare.java,5\e\5e7c0a4c9587fa16a9818d20731019cc092c6abc
 a
 1src/main/java/com/example/prova2/model/Admin.java,a\2\a2eb1789d2105ca8b6df9c4fb88982644da6fc1e
+`
+0src/main/java/com/example/prova2/model/Main.java,9\a\9ab2c2a6f2b6910c260e9d39b3672b69be1719ea

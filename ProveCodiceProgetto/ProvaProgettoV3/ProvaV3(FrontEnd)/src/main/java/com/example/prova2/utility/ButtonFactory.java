@@ -1,4 +1,4 @@
-package com.example.prova2.Utility;
+package com.example.prova2.utility;
 
 import javafx.scene.control.Button;
 

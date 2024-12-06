@@ -1,4 +1,4 @@
-module com.example.prova2.View {
+module com.example.prova2.view {
     requires javafx.controls;
     requires javafx.fxml;
     requires java.net.http;
@@ -7,10 +7,10 @@ module com.example.prova2.View {
     requires com.google.gson;
 
 
-    opens com.example.prova2.View to javafx.fxml;
-    exports com.example.prova2.View;
-    exports com.example.prova2.Controller;
-    opens com.example.prova2.Controller to javafx.fxml;
+    opens com.example.prova2.view to javafx.fxml;
+    exports com.example.prova2.view;
+    exports com.example.prova2.controller;
+    opens com.example.prova2.controller to javafx.fxml;
 
-    opens com.example.prova2.Model to com.google.gson; // Apre il pacchetto al modulo Gson
+    opens com.example.prova2.model to com.google.gson; // Apre il pacchetto al modulo Gson
 }

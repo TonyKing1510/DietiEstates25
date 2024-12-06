@@ -1,26 +1,17 @@
-package com.example.prova2.View;
+package com.example.prova2.view;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import javafx.stage.Window;
 
 import java.io.IOException;
 
 public class HomePageLogin extends Application {
-    /*public HomePageLogin(Window window) throws IOException {
-        FXMLLoader loader = new FXMLLoader(HomePageLogin.class.getResource("/com/example/prova2/Prova2.fxml"));
-        Scene scene = new Scene(loader.load(), 1540, 790);
-        Stage stage = (Stage) window;
-        stage.setScene(scene);
-        stage.show();
-    }*/
 
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HomePageLogin.class.getResource("/com/example/prova2/Prova2.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(HomePageLogin.class.getResource("/com/example/prova2/home.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 1540, 790);
         stage.setTitle("Hello!");
         stage.setScene(scene);

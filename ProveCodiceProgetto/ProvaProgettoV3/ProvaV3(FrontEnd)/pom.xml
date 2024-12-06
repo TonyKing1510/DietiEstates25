@@ -83,7 +83,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.example.prova2/com.example.prova2.View.HomePageLogin</mainClass>
+                            <mainClass>com.example.prova2/com.example.prova2.view.HomePageLogin</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>

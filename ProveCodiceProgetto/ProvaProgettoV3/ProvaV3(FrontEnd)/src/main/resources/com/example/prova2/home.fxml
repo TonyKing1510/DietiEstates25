@@ -61,7 +61,7 @@
    </Label>
 
    <!-- Pulsante Sign In -->
-   <Button fx:id="signInButton" layoutX="241.0" layoutY="478.0" mnemonicParsing="false" onAction="#handleSignIn" prefHeight="53.0" prefWidth="221.0" style="-fx-background-color: #011638; -fx-font-size: 25; -fx-background-radius: 20; -fx-border-radius: 20; -fx-cursor: hand" text="Sign In" textFill="#fcfcfc">
+   <Button fx:id="signInButton" layoutX="241.0" layoutY="478.0" mnemonicParsing="false" onAction="#handleSignIn" prefHeight="53.0" prefWidth="221.0" style="-fx-background-color: #011638; -fx-font-size: 25; -fx-background-radius: 20;  -fx-border-radius: 20; -fx-cursor: hand" text="Sign In" textFill="#fcfcfc">
       <font>
          <Font name="Roboto Bold" size="36.0" />
       </font>
@@ -100,14 +100,14 @@
    </Label>
 
    <!-- Pulsante per "Amministratore" -->
-   <Button layoutX="689.0" layoutY="311.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="259.0" style="-fx-background-color: #011638; -fx-font-size: 25; -fx-background-radius: 20; -fx-border-radius: 20;" text="Amministratore" textFill="#fcfcfc">
+   <Button layoutX="689.0" layoutY="311.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="259.0" style="-fx-background-color: #011638; -fx-font-size: 25; -fx-background-radius: 20; -fx-border-radius: 20; -fx-cursor: hand;" text="Amministratore" textFill="#fcfcfc">
       <font>
          <Font name="Roboto Bold" size="36.0" />
       </font>
    </Button>
 
    <!-- Pulsante per "Agente Immobiliare" -->
-   <Button fx:id="ButtonAgenteImmobiliare" layoutX="689.0" layoutY="441.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="259.0" style="-fx-background-color: #011638; -fx-font-size: 25; -fx-background-radius: 20; -fx-border-radius: 20;" text="Agente Immobiliare" textFill="#fcfcfc" onAction="#handleButtonAgente" >
+   <Button fx:id="ButtonAgenteImmobiliare" layoutX="689.0" layoutY="441.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="259.0" style="-fx-background-color: #011638; -fx-font-size: 25; -fx-background-radius: 20; -fx-border-radius: 20; -fx-cursor: hand;" text="Agente Immobiliare" textFill="#fcfcfc" onAction="#handleButtonAgente" >
       <font>
          <Font name="Roboto Bold" size="36.0" />
       </font>

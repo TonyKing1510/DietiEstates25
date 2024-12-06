@@ -1,12 +1,10 @@
-package com.example.prova2.Controller;
+package com.example.prova2.controller;
 
-import com.example.prova2.Model.Notification;
-import com.example.prova2.Utility.ButtonFactory;
-import com.example.prova2.Utility.LabelFactory;
-import com.example.prova2.Utility.PaneFactory;
-import com.example.prova2.requester.ReqNot;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
+import com.example.prova2.model.Notification;
+import com.example.prova2.utility.ButtonFactory;
+import com.example.prova2.utility.LabelFactory;
+import com.example.prova2.utility.PaneFactory;
+import com.example.prova2.repository.ReqNot;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;

@@ -1,10 +1,7 @@
-package com.example.prova2.Controller;
+package com.example.prova2.controller;
 
-import com.example.prova2.Model.User;
-import com.example.prova2.View.DashboardAgente;
-import com.example.prova2.View.HomePageLogin;
-import com.example.prova2.View.LoginAgenteImmobiliare;
-import com.example.prova2.requester.Requester;
+import com.example.prova2.view.DashboardAgente;
+import com.example.prova2.view.LoginAgenteImmobiliare;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.stage.Stage;

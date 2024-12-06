@@ -1,4 +1,4 @@
-package com.example.prova2.Model;
+package com.example.prova2.model;
 
 public class User {
     private String mail;

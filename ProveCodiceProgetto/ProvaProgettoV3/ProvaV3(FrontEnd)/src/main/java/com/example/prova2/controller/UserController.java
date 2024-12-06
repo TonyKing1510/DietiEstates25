@@ -1,14 +1,14 @@
-package com.example.prova2.Controller;
+package com.example.prova2.controller;
 
-import com.example.prova2.Model.User;
-import com.example.prova2.requester.Requester;
+import com.example.prova2.model.User;
+import com.example.prova2.repository.Requester;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.Alert.AlertType;
-import javafx.stage.Stage;
+
 import java.io.IOException;
 
-import com.example.prova2.View.LoginAgenteImmobiliare;
+import com.example.prova2.view.LoginAgenteImmobiliare;
 
 
 

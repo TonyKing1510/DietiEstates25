@@ -1,6 +1,6 @@
-package com.example.prova2.requester;
+package com.example.prova2.repository;
 
-import com.example.prova2.Model.Notification;
+import com.example.prova2.model.Notification;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
