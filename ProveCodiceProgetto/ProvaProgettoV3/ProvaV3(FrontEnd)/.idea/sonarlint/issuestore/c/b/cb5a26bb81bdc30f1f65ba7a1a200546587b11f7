@@ -1,0 +1,7 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÏðŠÓ
+Q	java:S125"<This block of commented-out lines of code should be removed.(ÞÏÊå
+F
+java:S1128"0Remove this unused import 'javafx.scene.Parent'.(²ä¡È
+K
+java:S1128"0Remove this unused import 'javafx.stage.Window'.(Ñ€Þ‡øÿÿÿÿ

@@ -1,0 +1,9 @@
+
+|	java:S116"bRename this field "ButtonAgenteImmobiliare" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÁæ¥şÿÿÿÿ
+e
+java:S1854%"JRemove this useless assignment to local variable "loginAgenteImmobiliare".(€µ‡üÿÿÿÿ
+”
+java:S1130#"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(ôº–½8üÔ²‹¹2
+V
+java:S1481%";Remove this unused "loginAgenteImmobiliare" local variable.(€µ‡üÿÿÿÿ
+V	java:S1250"<This block of commented-out lines of code should be removed.(Î“¶úıÿÿÿÿ
