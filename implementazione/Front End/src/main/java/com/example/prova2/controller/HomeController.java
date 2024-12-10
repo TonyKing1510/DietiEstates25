@@ -1,6 +1,6 @@
 package com.example.prova2.controller;
 import com.example.prova2.model.AccountSemplice;
-import com.example.prova2.requester.Requester;
+import com.example.prova2.requester.LoginRequester;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.Alert.AlertType;
@@ -25,13 +25,16 @@ public class HomeController {
     private Label passwordErrorLabel;
 
     @FXML
-    private Button ButtonAgenteImmobiliare;
+    private Button buttonAgenteImmobiliare;
+
+    @FXML
+    private Button signInButton;
 
 
 
     @FXML
     private void handleButtonAgente() throws IOException {
-        LoginAgenteImmobiliare.initializePageLoginAgente(ButtonAgenteImmobiliare.getScene().getWindow());
+        LoginAgenteImmobiliare.initializePageLoginAgente(buttonAgenteImmobiliare.getScene().getWindow());
     }
 
 
@@ -56,7 +59,7 @@ public class HomeController {
             valid = false;
         }
         if (valid) {
-            Requester.request(accountSemplice);
+            LoginRequester.request(accountSemplice);
             showAlert("Success", "User saved successfully.", AlertType.INFORMATION);
         } else {
             showAlert("Error", "Please fill in both username and password.", AlertType.ERROR);

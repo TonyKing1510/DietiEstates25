@@ -9,17 +9,17 @@ import java.net.http.HttpResponse;
 
 
 
-public class Requester {
+public class LoginRequester {
 
 
-    private Requester(){}
+    private LoginRequester(){}
 
-    private static final String BASE_URL = "http://localhost:9094/user";
+    private static final String BASE_URL = "http://localhost:9094/login";
     private static final HttpClient client = HttpClient.newHttpClient();
 
     public static void request(AccountSemplice accountSemplice) throws IOException, InterruptedException {
         // Corpo della richiesta JSON con valori dinamici per email e password
-        String jsonBody = String.format("{\"mail\":\"%s\", \"password\":\"%s\"}", accountSemplice.getMail(), accountSemplice.getPassword());
+        String jsonBody = String.format("{\"email\":\"%s\", \"password\":\"%s\"}", accountSemplice.getMail(), accountSemplice.getPassword());
 
         HttpRequest addTodoRequest = HttpRequest.newBuilder()
                 .uri(URI.create(BASE_URL))

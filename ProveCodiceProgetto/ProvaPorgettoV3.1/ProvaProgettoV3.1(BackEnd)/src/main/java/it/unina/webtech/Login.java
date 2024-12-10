@@ -9,9 +9,10 @@ import jakarta.ws.rs.core.MediaType;
 public class Login {
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
-    public void login(AccountSemplice account) {
+    public String login(AccountSemplice account) {
         if(LoginClienteService.checkIfAccountExists(account)){
-                System.out.println(account.getEmail());
+                return "Login !";
         }
+        return "Login Error";
     }
 }

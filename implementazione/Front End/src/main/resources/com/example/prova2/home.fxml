@@ -107,7 +107,7 @@
    </Button>
 
    <!-- Pulsante per "Agente Immobiliare" -->
-   <Button fx:id="ButtonAgenteImmobiliare" layoutX="839.0" layoutY="441.0" mnemonicParsing="false" onAction="#handleButtonAgente" prefHeight="53.0" prefWidth="259.0" style="-fx-background-color: #011638; -fx-font-size: 25; -fx-background-radius: 20; -fx-border-radius: 20;" text="Agente Immobiliare" textFill="#fcfcfc">
+   <Button fx:id="buttonAgenteImmobiliare" layoutX="839.0" layoutY="441.0" mnemonicParsing="false" onAction="#handleButtonAgente" prefHeight="53.0" prefWidth="259.0" style="-fx-background-color: #011638; -fx-font-size: 25; -fx-background-radius: 20; -fx-border-radius: 20;" text="Agente Immobiliare" textFill="#fcfcfc">
       <font>
          <Font name="Roboto Bold" size="36.0" />
       </font>
