@@ -1,8 +1,8 @@
 package it.unina.webtech.dao;
 
 
-import it.unina.webtech.model.User;
+import it.unina.webtech.model.AccountSemplice;
 
 public interface UserDao {
-    void save(User user);
+    void save(AccountSemplice user);
 }

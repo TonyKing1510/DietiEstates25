@@ -1,7 +1,7 @@
 package it.unina.webtech.service;
 
 import it.unina.webtech.dao.NotDao;
-import it.unina.webtech.model.Notification;
+import it.unina.webtech.model.Notifica;
 
 import java.util.List;
 
@@ -14,7 +14,7 @@ public class GetNotService {
     }
 
     // Metodo per ottenere tutte le notifiche
-    public List<Notification> getNot() {
+    public List<Notifica> getNot() {
         return notDao.getNot(); // Chiama il metodo getNot() del DAO
     }
 }

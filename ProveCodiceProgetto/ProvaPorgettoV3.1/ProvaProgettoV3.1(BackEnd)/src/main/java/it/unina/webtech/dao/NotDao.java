@@ -1,9 +1,9 @@
 package it.unina.webtech.dao;
 
-import it.unina.webtech.model.Notification;
+import it.unina.webtech.model.Notifica;
 
 import java.util.List;
 
 public interface NotDao {
-    List<Notification> getNot();
+    List<Notifica> getNot();
 }

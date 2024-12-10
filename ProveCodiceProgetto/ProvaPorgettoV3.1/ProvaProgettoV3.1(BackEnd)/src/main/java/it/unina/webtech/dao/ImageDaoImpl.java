@@ -2,7 +2,6 @@ package it.unina.webtech.dao;
 
 import it.unina.webtech.db.DatabaseConnection;
 import it.unina.webtech.model.Image;
-import it.unina.webtech.model.Notification;
 
 import java.io.File;
 import java.io.FileInputStream;

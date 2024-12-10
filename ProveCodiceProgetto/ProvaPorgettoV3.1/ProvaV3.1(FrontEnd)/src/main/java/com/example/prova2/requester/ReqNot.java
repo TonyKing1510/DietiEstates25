@@ -1,6 +1,6 @@
 package com.example.prova2.requester;
 
-import com.example.prova2.Model.Notification;
+import com.example.prova2.model.Notifica;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
@@ -21,15 +21,15 @@ public class ReqNot {
     private static final HttpClient client = HttpClient.newHttpClient();
 
     // Metodo per deserializzare la risposta JSON usando Gson
-    public static List<Notification> parseJson(String json){
+    public static List<Notifica> parseJson(String json){
         // Crea un'istanza di Gson
         Gson gson = new Gson();
 
         // Deserializza il JSON in una lista di notifiche
-        return gson.fromJson(json, new TypeToken<List<Notification>>() {}.getType());
+        return gson.fromJson(json, new TypeToken<List<Notifica>>() {}.getType());
     }
     // Metodo per ottenere tutte le notifiche
-    public static List<Notification> getNotifications() throws IOException, InterruptedException {
+    public static List<Notifica> getNotifications() throws IOException, InterruptedException {
         // Crea la richiesta GET
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(BASE_URL))
@@ -54,7 +54,7 @@ public class ReqNot {
 
             // Se la risposta è un array, deserializza in una lista di notifiche
             if (jsonElement.isJsonArray()) {
-                return gson.fromJson(responseBody, new TypeToken<List<Notification>>(){}.getType());
+                return gson.fromJson(responseBody, new TypeToken<List<Notifica>>(){}.getType());
             } else {
                 // Se non è un array, gestisci il caso di errore o stringa
                 System.out.println("Errore o risposta non in formato array JSON: " + responseBody);
