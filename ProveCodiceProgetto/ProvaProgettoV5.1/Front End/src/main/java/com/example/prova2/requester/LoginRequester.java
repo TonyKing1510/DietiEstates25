@@ -17,7 +17,7 @@ public class LoginRequester {
     private static final String BASE_URL = "http://localhost:9094/login";
     private static final HttpClient client = HttpClient.newHttpClient();
 
-    public static void request(AccountSemplice accountSemplice) throws IOException, InterruptedException {
+    public static String request(AccountSemplice accountSemplice) throws IOException, InterruptedException {
         // Corpo della richiesta JSON con valori dinamici per email e password
         String jsonBody = String.format("{\"email\":\"%s\", \"password\":\"%s\"}", accountSemplice.getMail(), accountSemplice.getPassword());
 
@@ -28,11 +28,7 @@ public class LoginRequester {
                 .build();
 
         HttpResponse<String> addTodoResponse = client.send(addTodoRequest, HttpResponse.BodyHandlers.ofString());
-        System.out.println(addTodoResponse.toString());
-
-        System.out.println("\nAdd To-do Response");
-        System.out.println("Status code: " + addTodoResponse.statusCode());
-        System.out.println("Body       : " + addTodoResponse.body());
+        return addTodoResponse.body();
 
     }
 }

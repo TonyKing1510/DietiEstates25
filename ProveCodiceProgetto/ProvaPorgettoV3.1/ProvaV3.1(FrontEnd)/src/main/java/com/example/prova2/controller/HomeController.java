@@ -1,6 +1,6 @@
 package com.example.prova2.controller;
 import com.example.prova2.model.AccountSemplice;
-import com.example.prova2.requester.LoginRequester;
+import com.example.prova2.repository.LoginRequester;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.Alert.AlertType;

@@ -5,7 +5,7 @@ import com.example.prova2.utility.ButtonFactory;
 import com.example.prova2.utility.LabelFactory;
 import com.example.prova2.utility.PaneFactory;
 import com.example.prova2.view.CreaAnnuncioAgente;
-import com.example.prova2.requester.ReqNot;
+import com.example.prova2.repository.ReqNot;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;

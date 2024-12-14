@@ -47,3 +47,5 @@ i
 9src/main/java/com/example/prova2/utility/PaneFactory.java,0\b\0bff11a49e9c34d3925e20a30ec6a2da43c641ed
 n
 >src/main/java/com/example/prova2/requester/LoginRequester.java,0\1\01cd08881ac1cfbd09836d262f36b5f103bf2aef
+o
+?src/main/java/com/example/prova2/repository/LoginRequester.java,0\e\0e47f0ca545ad6aa06ffc721416c39aa1d603abb
