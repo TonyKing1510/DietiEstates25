@@ -1,8 +1,0 @@
-
-U
-java:S1118":Add a private constructor to hide the implicit public one.(¬”àƒûÿÿÿÿ
-E	java:S106<"+Replace this use of System.out by a logger.(²Ì­ýÿÿÿÿ
-H
-java:S1168="+Return an empty collection instead of null.(¥¹ï8¡úº2
-M
-java:S1168@"+Return an empty collection instead of null.(†…Î’ÿÿÿÿÿ8¡úº2
