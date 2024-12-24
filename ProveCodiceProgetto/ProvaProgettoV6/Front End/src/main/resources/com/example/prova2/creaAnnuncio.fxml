@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane fitToHeight="true" fitToWidth="true" pannable="true" style="-fx-background-color: #f3f6f4;" styleClass="-fx-align" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prova2.controller.CreaAnnuncioController">
+   <ScrollPane>
+      <content>
+         <Pane prefHeight="1946.0" prefWidth="1506.0"> <!-- Aumento della dimensione complessiva -->
+            <children>
+
+               <!-- Contenuto principale -->
+               <Pane layoutX="286.0" layoutY="249.0" /> <!-- Altezza maggiore -->
+               <Pane layoutX="30.0" layoutY="13.0" prefHeight="1917.0" prefWidth="1459.0" style="-fx-background-color: rgba(1, 22, 56, 0.26); -fx-border-color: #5882C1; -fx-border-width: 2.13; -fx-border-radius: 28.46; -fx-background-radius: 28.46;">
+                  <Label layoutX="23.0" layoutY="21.0" style="-fx-font-size: 36px; -fx-font-weight: bold; -fx-text-fill: black;" text="Crea il tuo nuovo annuncio" textFill="#011638">
+                     <font>
+                        <Font size="19.0" />
+                     </font></Label>
+                  <Pane layoutX="25.0" layoutY="82.0" prefHeight="457.0" prefWidth="274.0" style="-fx-background-color: #f3f6f4; -fx-background-radius: 25.0; -fx-border-color: black; -fx-border-radius: 25;">
+                     <children>
+                        <Label layoutX="20.0" layoutY="-8.0" prefHeight="77.0" prefWidth="389.0" text="Seleziona categoria" textFill="#011638">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                        <VBox layoutX="16.0" layoutY="50.0" prefHeight="393.0" prefWidth="247.0">
+                           <children>
+                              <RadioButton alignment="CENTER_LEFT" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="51.0" prefWidth="348.0" stylesheets="@radio-button.css" text="Residenziale" textFill="#011638">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font>
+                              </RadioButton>
+                              <RadioButton alignment="CENTER_LEFT" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="51.0" prefWidth="348.0" stylesheets="@radio-button.css" text="Appartamento" textFill="#011638">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font>
+                              </RadioButton>
+                              <RadioButton alignment="CENTER_LEFT" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="51.0" prefWidth="348.0" stylesheets="@radio-button.css" text="Attico" textFill="#011638">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font>
+                              </RadioButton>
+                              <RadioButton alignment="CENTER_LEFT" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="51.0" prefWidth="348.0" stylesheets="@radio-button.css" text="Open space" textFill="#011638">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font>
+                              </RadioButton>
+                              <RadioButton alignment="CENTER_LEFT" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="51.0" prefWidth="348.0" stylesheets="@radio-button.css" text="Loft" textFill="#011638">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font>
+                              </RadioButton>
+                              <RadioButton alignment="CENTER_LEFT" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="51.0" prefWidth="348.0" stylesheets="@radio-button.css" text="Mansarda" textFill="#011638">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font>
+                              </RadioButton>
+                              <RadioButton alignment="CENTER_LEFT" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="51.0" prefWidth="348.0" stylesheets="@radio-button.css" text="Villa a piu piani" textFill="#011638">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font>
+                              </RadioButton>
+                              <RadioButton alignment="CENTER_LEFT" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="51.0" prefWidth="348.0" stylesheets="@radio-button.css" text="Baita" textFill="#011638">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font>
+                              </RadioButton>
+                           </children>
+                        </VBox>
+                     </children></Pane>
+                  <Pane layoutX="30.0" layoutY="562.0" prefHeight="171.0" prefWidth="270.0" style="-fx-background-color: #f3f6f4; -fx-background-radius: 25.0; -fx-border-color: black; -fx-border-radius: 25;">
+                     <children>
+                        <Label layoutX="12.0" layoutY="-3.0" prefHeight="77.0" prefWidth="389.0" text="Vendi o Affitti" textFill="#011638">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                        <VBox layoutX="13.0" layoutY="59.0" prefHeight="93.0" prefWidth="238.0">
+                           <children>
+                              <RadioButton alignment="CENTER_LEFT" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="51.0" prefWidth="348.0" stylesheets="@radio-button.css" text="Vendi" textFill="#011638">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </RadioButton>
+                              <RadioButton alignment="CENTER_LEFT" contentDisplay="CENTER" layoutX="10.0" layoutY="61.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="348.0" stylesheets="@radio-button.css" text="Affitti" textFill="#011638">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </RadioButton>
+                           </children>
+                        </VBox>
+                     </children>
+                  </Pane>
+                  <Line endX="-142.93331909179688" endY="751.933349609375" layoutX="486.0" layoutY="198.0" startX="-142.93331909179688" startY="-106.73333740234375" stroke="#011638" />
+                  <Label layoutX="374.0" layoutY="58.0" prefHeight="77.0" prefWidth="389.0" text="Località" textFill="#011638">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="textComune" layoutX="385.0" layoutY="136.0" onAction="#cercaComuni" prefHeight="35.0" prefWidth="464.0" promptText="inserisci comune di residenza" />
+                  <Label layoutX="386.0" layoutY="112.0" text="Inserisci comune" textFill="#011638">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="748.0" layoutY="203.0" prefHeight="35.0" prefWidth="103.0" promptText="es. 22" />
+                  <Label layoutX="382.0" layoutY="350.0" text="Piano" textFill="#011638">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <MenuButton layoutX="382.0" layoutY="375.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="464.0" style="-fx-background-color: white;" text="Seleziona il piano" textFill="#011648">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Piano terra" />
+                      <MenuItem mnemonicParsing="false" text="1" />
+                        <MenuItem mnemonicParsing="false" text="2" />
+                        <MenuItem mnemonicParsing="false" text="3" />
+                        <MenuItem mnemonicParsing="false" text="4" />
+                    </items>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </MenuButton>
+                  <HBox layoutX="387.0" layoutY="515.0" prefHeight="33.0" prefWidth="364.0" style="-fx-background-color: white;">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="51.0" style="-fx-background-color: white; -fx-border-color: #011638;" text="-" />
+                        <Label alignment="CENTER" prefHeight="46.0" prefWidth="263.0" text="Bagni" textFill="#011638">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Button mnemonicParsing="false" prefHeight="34.0" prefWidth="51.0" style="-fx-background-color: white; -fx-border-color: #011638;" text="+" />
+                     </children>
+                  </HBox>
+                  <VBox layoutX="390.0" layoutY="662.0" prefHeight="157.0" prefWidth="247.0">
+                     <children>
+                        <RadioButton alignment="CENTER_LEFT" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="51.0" prefWidth="348.0" stylesheets="@radio-button.css" text="Arredata" textFill="#011638">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton alignment="CENTER_LEFT" contentDisplay="CENTER" layoutX="10.0" layoutY="61.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="348.0" stylesheets="@radio-button.css" text="Parzialmente arredata" textFill="#011638">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton alignment="CENTER_LEFT" contentDisplay="CENTER" layoutX="10.0" layoutY="128.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="348.0" stylesheets="@radio-button.css" text="Non arredata" textFill="#011638">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </RadioButton>
+                     </children>
+                  </VBox>
+                  <MenuButton layoutX="391.0" layoutY="851.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="464.0" style="-fx-background-color: white;" text="Seleziona la classe energetica" textFill="#011648">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="A4" />
+                        <MenuItem mnemonicParsing="false" text="A3" />
+                        <MenuItem mnemonicParsing="false" text="A2" />
+                        <MenuItem mnemonicParsing="false" text="A1" />
+                        <MenuItem mnemonicParsing="false" text="A+" />
+                        <MenuItem mnemonicParsing="false" text="A" />
+                        <MenuItem mnemonicParsing="false" text="B" />
+                        <MenuItem mnemonicParsing="false" text="C" />
+                        <MenuItem mnemonicParsing="false" text="D" />
+                        <MenuItem mnemonicParsing="false" text="E" />
+                        <MenuItem mnemonicParsing="false" text="F" />
+                        <MenuItem mnemonicParsing="false" text="G" />
+                     </items>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </MenuButton>
+                  <Label layoutX="385.0" layoutY="822.0" text="Classe energetica" textFill="#011638">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <Line endX="-142.93331909179688" endY="435.333251953125" layoutX="486.0" layoutY="745.0" startX="-142.93331909179688" startY="255.06671142578125" stroke="#011638" />
+                  <Label layoutX="375.0" layoutY="994.0" prefHeight="55.0" prefWidth="389.0" text="Prezzi" textFill="#011638">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="387.0" layoutY="1064.0" prefHeight="35.0" prefWidth="464.0" promptText="es. 200.000" />
+                  <Label layoutX="382.0" layoutY="1040.0" text="Prezzo ( € )" textFill="#011638">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="374.0" layoutY="1222.0" prefHeight="55.0" prefWidth="389.0" text="Foto" textFill="#011638">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="382.0" layoutY="1262.0" text="Carica le tue foto cliccando qui" textFill="#011638">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnFoto" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="389.0" layoutY="1291.0" mnemonicParsing="false" onAction="#uploadImage" prefHeight="97.0" prefWidth="181.0" style="-fx-background-color: white;" text="Foto immobile" textFill="#011636">
+                     <graphic>
+                        <ImageView fitHeight="52.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/icons8-casa-con-giardino-50.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="372.0" layoutY="1397.0" prefHeight="55.0" prefWidth="389.0" text="Planimetrie" textFill="#011638">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <ScrollPane fx:id="Scrollimage" layoutX="600.0" layoutY="1291.0" prefHeight="97.0" prefWidth="423.0">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="96.0" prefWidth="410.0">
+                           <children>
+                              <HBox fx:id="HBox1" layoutX="-1.0" layoutY="-1.0" prefHeight="98.0" prefWidth="414.0">
+                                 <children>
+                                    <ImageView fx:id="ContenitoreImage" fitHeight="98.0" fitWidth="125.0" pickOnBounds="true" preserveRatio="true" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </ScrollPane>
+               </Pane>
+               <TextField layoutX="415.0" layoutY="216.0" prefHeight="35.0" prefWidth="346.0" promptText="Inserisci via" />
+               <Label layoutX="416.0" layoutY="192.0" text="Inserisci via e numero civico" textFill="#011638">
+                  <font>
+                     <Font size="17.0" />
+                  </font>
+               </Label>
+               <Label layoutX="404.0" layoutY="244.0" prefHeight="77.0" prefWidth="389.0" text="Caratteristiche" textFill="#011638">
+                  <font>
+                     <Font name="System Bold" size="24.0" />
+                  </font>
+               </Label>
+               <TextField layoutX="412.0" layoutY="320.0" prefHeight="35.0" prefWidth="464.0" promptText="es. 120" />
+               <Label layoutX="413.0" layoutY="296.0" text="Superficie commerciale ( in metri quadrati)" textFill="#011638">
+                  <font>
+                     <Font size="17.0" />
+                  </font>
+               </Label>
+               <TextField layoutX="412.0" layoutY="461.0" prefHeight="35.0" prefWidth="464.0" promptText="es. 2" />
+               <Label layoutX="413.0" layoutY="437.0" text="Totale piani edificio" textFill="#011638">
+                  <font>
+                     <Font size="17.0" />
+                  </font>
+               </Label>
+               <Label layoutX="413.0" layoutY="503.0" text="Locali" textFill="#011638">
+                  <font>
+                     <Font size="17.0" />
+                  </font>
+               </Label>
+               <HBox layoutX="417.0" layoutY="569.0" prefHeight="33.0" prefWidth="364.0" style="-fx-background-color: white;">
+                  <children>
+                     <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="51.0" style="-fx-background-color: white; -fx-border-color: #011638;" text="-" />
+                     <Label alignment="CENTER" prefHeight="46.0" prefWidth="263.0" text="Soggiorni" textFill="#011638">
+                        <font>
+                           <Font size="14.0" />
+                        </font>
+                     </Label>
+                     <Button mnemonicParsing="false" prefHeight="34.0" prefWidth="51.0" style="-fx-background-color: white; -fx-border-color: #011638;" text="+" />
+                  </children>
+               </HBox>
+               <HBox layoutX="417.0" layoutY="611.0" prefHeight="33.0" prefWidth="364.0" style="-fx-background-color: white;">
+                  <children>
+                     <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="51.0" style="-fx-background-color: white; -fx-border-color: #011638;" text="-" />
+                     <Label alignment="CENTER" prefHeight="46.0" prefWidth="263.0" text="Cucine" textFill="#011638">
+                        <font>
+                           <Font size="14.0" />
+                        </font>
+                     </Label>
+                     <Button mnemonicParsing="false" prefHeight="34.0" prefWidth="51.0" style="-fx-background-color: white; -fx-border-color: #011638;" text="+" />
+                  </children>
+               </HBox>
+               <Label layoutX="414.0" layoutY="655.0" text="Arredamento" textFill="#011638">
+                  <font>
+                     <Font size="17.0" />
+                  </font>
+               </Label>
+               <TextField layoutX="416.0" layoutY="1143.0" prefHeight="35.0" prefWidth="464.0" promptText="es .50" />
+               <Label layoutX="411.0" layoutY="1119.0" text="Spese condominiali ( €/mese )" textFill="#011638">
+                  <font>
+                     <Font size="17.0" />
+                  </font>
+               </Label>
+               <Line endX="-142.93331909179688" endY="609.333251953125" layoutX="515.0" layoutY="984.0" startX="-142.93331909179688" startY="263.7332763671875" stroke="#011638" />
+               <Label layoutX="412.0" layoutY="1453.0" text="Carica le tue planimetrie cliccando qui" textFill="#011638">
+                  <font>
+                     <Font size="17.0" />
+                  </font>
+               </Label>
+               <Button alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="419.0" layoutY="1482.0" mnemonicParsing="false" prefHeight="97.0" prefWidth="181.0" style="-fx-background-color: white;" text="Aggiungi planimetria" textFill="#011636">
+                  <graphic>
+                     <ImageView fitHeight="52.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                           <Image url="@images/icons8-planimetria-50.png" />
+                        </image>
+                     </ImageView>
+                  </graphic>
+                  <font>
+                     <Font size="16.0" />
+                  </font>
+               </Button>
+               <Label layoutX="403.0" layoutY="1626.0" prefHeight="55.0" prefWidth="389.0" text="Descrizione" textFill="#011638">
+                  <font>
+                     <Font name="System Bold" size="24.0" />
+                  </font>
+               </Label>
+               <Line endX="-142.93331909179688" endY="579.2666015625" layoutX="515.0" layoutY="1301.0" startX="-142.93331909179688" startY="330.7332763671875" stroke="#011638" />
+               <Label layoutX="412.0" layoutY="1670.0" text="Scrivi una piccola descrizione del tuo immobile" textFill="#011638">
+                  <font>
+                     <Font size="17.0" />
+                  </font>
+               </Label>
+               <TextField alignment="TOP_LEFT" layoutX="417.0" layoutY="1696.0" prefHeight="176.0" prefWidth="625.0" promptText="max 3000 caratteri">
+                  <font>
+                     <Font size="15.0" />
+                  </font>
+               </TextField>
+               <Pane layoutX="60.0" layoutY="795.0" prefHeight="233.0" prefWidth="270.0" style="-fx-background-color: #f3f6f4; -fx-background-radius: 25.0; -fx-border-color: black; -fx-border-radius: 25;">
+                  <children>
+                     <Label layoutX="12.0" layoutY="-3.0" prefHeight="77.0" prefWidth="389.0" text="Aggiungi contatto" textFill="#011638">
+                        <font>
+                           <Font name="System Bold" size="24.0" />
+                        </font>
+                     </Label>
+                  </children>
+               </Pane>
+               <ListView fx:id="ListMaps" layoutX="415.0" layoutY="182.0" prefHeight="130.0" prefWidth="464.0" visible="false"/>
+            </children>
+         </Pane>
+      </content>
+   </ScrollPane>
+</ScrollPane>
