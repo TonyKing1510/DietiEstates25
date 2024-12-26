@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prova2.controller.LoginAmministratoreController">
+<Pane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.prova2.controller.LoginAmministratoreController">
    <children>
       <AnchorPane layoutY="5.0" prefHeight="1058.0" prefWidth="1424.0">
          <children>
@@ -27,12 +27,12 @@
                         <Font name="Arial" size="12.0" />
                      </font>
                   </Label>
-                  <RadioButton fx:id="radioButtonAdmin" layoutX="148.0" layoutY="186.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="127.0" text="Amministratore">
+                  <RadioButton fx:id="radioButtonAdmin" layoutX="148.0" layoutY="186.0" mnemonicParsing="false" onAction="#attivoSoloRadioAdmin" prefHeight="29.0" prefWidth="127.0" text="Amministratore">
                      <font>
                         <Font name="Arial" size="13.0" />
                      </font>
                   </RadioButton>
-                  <RadioButton fx:id="radioButtoneGestore" layoutX="283.0" layoutY="186.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="94.0" text="Gestore">
+                  <RadioButton fx:id="radioButtoneGestore" layoutX="283.0" layoutY="186.0" mnemonicParsing="false" onAction="#attivoSoloRadioGestore" prefHeight="32.0" prefWidth="94.0" text="Gestore">
                      <font>
                         <Font name="Arial" size="13.0" />
                      </font>
@@ -71,7 +71,7 @@
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="società" layoutX="148.0" layoutY="509.0" prefHeight="25.0" prefWidth="269.0" />
+                  <TextField fx:id="societa" layoutX="148.0" layoutY="509.0" prefHeight="25.0" prefWidth="269.0" />
                   <Button fx:id="bottoneRegistrati" layoutX="394.0" layoutY="607.0" mnemonicParsing="false" onAction="#registrati" prefHeight="37.0" prefWidth="118.0" style="-fx-background-color: #011638; -fx-cursor: hand; -fx-background-radius: 20;" text="Registrati" textFill="#fffdfd">
                      <font>
                         <Font name="Arial" size="12.0" />
@@ -82,11 +82,11 @@
                         <Font name="Arial" size="12.0" />
                      </font>
                   </Button>
-                  <Label layoutX="151.0" layoutY="278.0" text="Compila questo campo!" textFill="#e10c0c" visible="false" />
-                  <Label layoutX="151.0" layoutY="343.0" text="Compila questo campo!" textFill="#e10c0c" visible="false" />
-                  <Label layoutX="151.0" layoutY="405.0" text="Compila questo campo!" textFill="#e10c0c" visible="false" />
-                  <Label layoutX="151.0" layoutY="467.0" text="Compila questo campo!" textFill="#e10c0c" visible="false" />
-                  <Label layoutX="151.0" layoutY="534.0" text="Compila questo campo!" textFill="#e10c0c" visible="false" />
+                  <Label fx:id="compilaNome" layoutX="151.0" layoutY="278.0" text="Compila questo campo!" textFill="#e10c0c" visible="false" />
+                  <Label fx:id="compilaCognome" layoutX="151.0" layoutY="343.0" text="Compila questo campo!" textFill="#e10c0c" visible="false" />
+                  <Label fx:id="compilaEmail" layoutX="151.0" layoutY="405.0" text="Compila questo campo!" textFill="#e10c0c" visible="false" />
+                  <Label fx:id="compilaPartitaIva" layoutX="151.0" layoutY="467.0" text="Compila questo campo!" textFill="#e10c0c" visible="false" />
+                  <Label fx:id="compilaSocieta" layoutX="151.0" layoutY="534.0" text="Compila questo campo!" textFill="#e10c0c" visible="false" />
                </children>
             </Pane>
             <Pane layoutY="-5.0" prefHeight="847.0" prefWidth="491.0" style="-fx-background-color: #011638;">

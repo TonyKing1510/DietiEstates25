@@ -63,3 +63,5 @@ r
 Bsrc/main/java/com/example/prova2/view/DashboardAmministratore.java,9\b\9b9970e44447e6a32f99d45248e2c1809e5bf8bb
 n
 >src/main/java/com/example/prova2/view/LoginAmministratore.java,a\c\ace49233e178eacd48e158390027fa84468d0bc4
+e
+5src/main/resources/com/example/prova2/loginAdmin.fxml,d\6\d6a9a7ec9c048d472a503a4dccad46b205ecfa78
