@@ -1,0 +1,13 @@
+
+t
+java:S1192¼"VDefine a constant instead of duplicating this literal "Errore di navigazione" 4 times.(„õŞ±8êÎèÀÂ2
+{
+java:S1104"YMake textFieldNome a static final constant or non-public and provide accessors if needed.(·Ì”ãøÿÿÿÿ8ş‘æÀÂ2
+r
+java:S1104M"UMake labelDati a static final constant or non-public and provide accessors if needed.(È Òï8ş‘æÀÂ2
+U
+java:S1172å"2Remove this unused method parameter "actionEvent".(œÇ›şÿÿÿÿ8æ’æÀÂ2
+Z
+java:S1128"8Remove this unused import 'javafx.scene.input.KeyEvent'.(¦¶ Æøÿÿÿÿ8êééÀÂ2
+p
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(öÿß8ëééÀÂ2

@@ -1,0 +1,21 @@
+package it.unina.webtech.model;
+
+import java.util.ArrayList;
+
+public class Agente extends Utente {
+    private String partitaIva;
+
+    private ArrayList<Recensione> recensioniAgente;
+
+    private ArrayList<Notifica> notificheAgente;
+
+    private ArrayList<Immobile> immobiliCaricati;
+
+    private ArrayList<Visita> visiteAgente;
+
+    private AccountAziendale accountAgente;
+
+    Agente(String nome, String cognome, String cf, String telefono, String indirizzo) {
+        super(nome, cognome, cf, telefono, indirizzo);
+    }
+}
