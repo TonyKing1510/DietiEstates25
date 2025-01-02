@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="683.0" prefWidth="1534.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <AnchorPane focusTraversable="true" prefHeight="1007.0" prefWidth="1519.0" styleClass="gradient-backgrounds" stylesheets="@style.css">
+         <children>
+            <Label layoutX="373.0" layoutY="100.0" prefHeight="35.0" prefWidth="202.0" text="Il mio profilo" textFill="#f3f6f4">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="370.0" layoutY="147.0" prefHeight="352.0" prefWidth="628.0" style="-fx-border-radius: 10; -fx-background-radius: 10;" styleClass="container" stylesheets="@style.css">
+               <children>
+                  <Label layoutX="22.0" layoutY="13.0" text="Nome" textFill="#f3f6f4">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font></Label>
+                  <Label layoutX="312.0" layoutY="117.0" text="Email" textFill="#f3f6f4">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font></Label>
+                  <Label layoutX="22.0" layoutY="217.0" text="Partita Iva" textFill="#f3f6f4">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font></Label>
+                  <Label alignment="CENTER" layoutX="25.0" layoutY="43.0" prefHeight="29.0" prefWidth="183.0" style="-fx-background-radius: 10;" styleClass="container" text="Luca " textFill="#f3f6f4">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="312.0" layoutY="13.0" text="Cognome" textFill="#f3f6f4">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="317.0" layoutY="44.0" prefHeight="30.0" prefWidth="183.0" style="-fx-background-radius: 10;" styleClass="container" text="Ambrogio" textFill="#f3f6f4">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="22.0" layoutY="115.0" text="Telefono" textFill="#f3f6f4">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="25.0" layoutY="145.0" prefHeight="29.0" prefWidth="183.0" style="-fx-background-radius: 10;" styleClass="container" text="3498789004" textFill="#f3f6f4">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="25.0" layoutY="247.0" prefHeight="29.0" prefWidth="183.0" style="-fx-background-radius: 10;" styleClass="container" text="123456789" textFill="#f3f6f4">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="317.0" layoutY="146.0" prefHeight="29.0" prefWidth="183.0" style="-fx-background-radius: 10;" styleClass="container" text="Luc.ambr@tecnocasa.it" textFill="#f3f6f4">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Pane layoutX="4.0" layoutY="113.0" prefHeight="507.0" prefWidth="286.0">
+               <children>
+                  <VBox layoutX="2.0" layoutY="-1.0" prefHeight="506.0" prefWidth="284.0" style="-fx-spacing: 10; -fx-background-radius: 10;" styleClass="container" stylesheets="@style.css">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="95.0" prefWidth="284.0">
+                           <children>
+                              <ImageView fitHeight="65.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/Gigi-photoaidcom-cropped.png" />
+                                 </image>
+                                 <cursor>
+                                    <Cursor fx:constant="DEFAULT" />
+                                 </cursor>
+                              </ImageView>
+                              <Label alignment="CENTER" prefHeight="27.0" prefWidth="162.0" text="Luca Ambrogio" textFill="#f3f6f4">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <Line endX="107.69288635253906" endY="79.20001220703125" startX="-174.60003662109375" startY="79.20001220703125" stroke="#f3f6f4" />
+                        <Pane prefHeight="83.0" prefWidth="336.0">
+                           <children>
+                              <ImageView fitHeight="87.0" fitWidth="96.0" layoutX="1.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" />
+                              <Hyperlink layoutX="96.0" layoutY="11.0" mouseTransparent="true" prefHeight="63.0" prefWidth="160.0" text="Il mio profilo" textFill="#f3f6f4" />
+                              <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="39.0" layoutY="23.0">
+                                 <image>
+                                    <Image url="@images/icons8-account-48.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="83.0" prefWidth="336.0">
+                           <children>
+                              <ImageView fitHeight="87.0" fitWidth="96.0" layoutX="1.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" />
+                              <Hyperlink layoutX="96.0" layoutY="11.0" mouseTransparent="true" prefHeight="63.0" prefWidth="160.0" text="Crea gestore" textFill="#f3f6f4" />
+                              <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="37.0" layoutY="24.0">
+                                 <image>
+                                    <Image url="@images/icons8-gestore-dispositivi-50%20(1).png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="83.0" prefWidth="336.0">
+                           <children>
+                              <ImageView fitHeight="87.0" fitWidth="96.0" layoutX="1.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" />
+                              <Hyperlink layoutX="96.0" layoutY="11.0" mouseTransparent="true" prefHeight="63.0" prefWidth="160.0" text="Crea agenti" textFill="#f3f6f4" />
+                              <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="34.0" layoutY="25.0">
+                                 <image>
+                                    <Image url="@images/icons8-agente-immobiliare-50%20(1).png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="83.0" prefWidth="336.0">
+                           <children>
+                              <ImageView fitHeight="87.0" fitWidth="96.0" layoutX="1.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" />
+                              <Hyperlink layoutX="96.0" layoutY="11.0" mouseTransparent="true" prefHeight="63.0" prefWidth="160.0" text="Logout" textFill="#f3f6f4" />
+                              <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="34.0" layoutY="26.0">
+                                 <image>
+                                    <Image url="@images/icons8-power-off-button-48.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </VBox>
+               </children>
+            </Pane>
+            <ImageView fitHeight="95.0" fitWidth="128.0" layoutX="1369.0" layoutY="-11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/Immagine3.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="90.0" layoutY="19.0" prefHeight="27.0" prefWidth="213.0" text="Admin dashboard" textFill="#f3f6f4">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Line endX="899.9998779296875" layoutX="449.0" layoutY="33.0" startX="-185.79998779296875" stroke="#f3f6f4" />
+            <ImageView fitHeight="61.0" fitWidth="53.0" layoutX="19.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/Immagine132.png" />
+               </image>
+            </ImageView>
+            <Pane layoutX="1102.0" layoutY="147.0" prefHeight="481.0" prefWidth="392.0" style="-fx-border-radius: 25; -fx-background-radius: 25.0;" styleClass="container" stylesheets="@style.css">
+               <children>
+                  <Label layoutX="23.0" layoutY="-6.0" prefHeight="77.0" prefWidth="252.0" text="Notifiche" textFill="#f3f6f4">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <ScrollPane layoutX="15.0" layoutY="63.0" prefHeight="403.0" prefWidth="361.0" stylesheets="@ScrollPane2.css">
+                     <content>
+                        <VBox fx:id="vbox1" prefHeight="400.0" prefWidth="342.0" />
+                     </content>
+                  </ScrollPane>
+               </children>
+            </Pane>
+            <TextFlow layoutX="584.0" layoutY="650.0" prefHeight="200.0" prefWidth="200.0" />
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
