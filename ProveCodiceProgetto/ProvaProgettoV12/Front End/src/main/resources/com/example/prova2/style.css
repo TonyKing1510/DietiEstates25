@@ -1,0 +1,38 @@
+.gradient-backgrounds{
+    -fx-background-color : linear-gradient(from 25% 25% to 100% 100%, rgba(1, 22, 56, 0.8),#f3f6f4);
+    }
+
+    .gradient-backgrounds2{
+        -fx-background-color : linear-gradient(from 5% 5% to 100% 100%, rgba(1, 22, 56, 0.8),#f3f6f4);
+        }
+    
+        .gradient-backgrounds3{
+            -fx-background-color : linear-gradient(from 2% 2% to 100% 100%, rgba(1, 22, 56, 0.8),#f3f6f4);
+            }
+
+.container{
+    -fx-background-color : rgba(255, 255, 255, 0.2);
+    -fx-backgrounds-radius : 10;
+    border-radius: 10;
+}
+
+.container2{
+    -fx-background-color : rgba(1, 22, 56, 0.2);
+    -fx-backgrounds-radius : 10;
+    border-radius: 10;
+}
+
+.textField{
+    -fx-background-color : rgba(255, 255, 255, 0.2);
+    -fx-backgrounds-radius : 10;
+    border-radius: 10;
+    -fx-text-fill: #f3f6f4;
+}
+
+.textarea {
+    background-color: transparent; /* Rende lo sfondo trasparente */
+    color: #000; /* Colore del testo */
+    font-size: 14px; /* Dimensione del testo */
+    resize: none; /* Disabilita il ridimensionamento (opzionale) */
+    outline: none; /* Rimuove il bordo di focus */
+}

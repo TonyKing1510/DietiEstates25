@@ -1,0 +1,18 @@
+.gradient-backgrounds{
+    -fx-background-color : linear-gradient(from 25% 25% to 100% 100%, rgba(1, 22, 56, 0.8),#f3f6f4);
+    }
+
+.container{
+    -fx-background-color : rgba(255, 255, 255, 0.2);
+    -fx-backgrounds-radius : 10;
+    -fx-border-radius:10;
+}
+
+.textarea {
+    background-color: transparent; /* Rende lo sfondo trasparente */
+    border: 1px solid #ccc; /* Bordo visibile per definire l'area */
+    color: #000; /* Colore del testo */
+    font-size: 14px; /* Dimensione del testo */
+    resize: none; /* Disabilita il ridimensionamento (opzionale) */
+    outline: none; /* Rimuove il bordo di focus */
+}
