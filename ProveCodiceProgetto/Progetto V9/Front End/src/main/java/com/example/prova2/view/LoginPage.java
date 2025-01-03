@@ -24,12 +24,24 @@ public class LoginPage extends Application {
         MediaPlayer mediaPlayer = new MediaPlayer(media);
         MediaView mediaView = new MediaView(mediaPlayer);
 
+        // Adattare il video alla finestra
+        mediaView.fitWidthProperty().bind(primaryStage.widthProperty());
+        mediaView.fitHeightProperty().bind(primaryStage.heightProperty());
+        mediaView.setPreserveRatio(false); // Adatta senza mantenere proporzioni
+
+
         // Layout e scena per lo splash screen
         StackPane root = new StackPane(mediaView);
         Scene splashScene = new Scene(root, 1540, 790); // Dimensioni personalizzabili
 
         // Imposta la scena di splash screen
         primaryStage.setScene(splashScene);
+        primaryStage.show();
+
+        // Imposta la modalità full screen
+        primaryStage.setScene(splashScene);
+        primaryStage.setFullScreen(true); // Schermo intero
+        primaryStage.setFullScreenExitHint("Premi ESC per uscire dalla modalità full screen");
         primaryStage.show();
 
         // Avvia il video
@@ -49,11 +61,13 @@ public class LoginPage extends Application {
     public void startMainApp(Stage primaryStage) throws IOException {
         // Carica la scena del login
         FXMLLoader fxmlLoader = new FXMLLoader(LoginPage.class.getResource("/com/example/prova2/loginPage.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 1540, 790);
+        Scene scene = new Scene(fxmlLoader.load(), 1920, 1080);
 
         // Imposta la scena del login
         primaryStage.setScene(scene);
         primaryStage.setTitle("Login");
+        primaryStage.setFullScreen(true); // Mantieni schermo intero anche nella scena di login
+        primaryStage.setResizable(true); // Consenti ridimensionamento
         primaryStage.show();
     }
 
