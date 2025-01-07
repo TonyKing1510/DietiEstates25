@@ -1,0 +1,7 @@
+
+\
+java:S1118":Add a private constructor to hide the implicit public one.(´¥ß²úÿÿÿÿ8¾ºúƒÄ2
+F	java:S1063"+Replace this use of System.out by a logger.(ø­Ž:8ÝÆöƒÄ2
+L	java:S1064"+Replace this use of System.out by a logger.(ê€þ’úÿÿÿÿ8ÞÆöƒÄ2
+]
+java:S1128";Remove this unused import 'com.example.prova2.model.Admin'.(ÚÃ“©øÿÿÿÿ8ßÆöƒÄ2

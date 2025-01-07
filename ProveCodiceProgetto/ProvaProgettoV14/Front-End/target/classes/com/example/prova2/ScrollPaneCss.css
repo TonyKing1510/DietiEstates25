@@ -1,0 +1,9 @@
+.scroll-pane {
+    -fx-background-color: transparent; /* Sfondo trasparente */
+    -fx-border-color: transparent;    /* Bordo trasparente */
+}
+.scroll-pane:focused {
+    -fx-focus-color: transparent; /* Rimuove il colore di focus */
+    -fx-faint-focus-color: transparent; /* Rimuove il colore attenuato */
+}
+
