@@ -1,0 +1,8 @@
+
+Þ
+java:S1598"ÂThis file "AccediAdminController.java" should be located in "com\example\dietiEstates\controller" directory, not in "C:\Users\Utente\Desktop\Front-End\src\main\java\com\dietiEstates\controller".(¦—šòýÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦—šòýÿÿÿÿ
+f
+java:S1128"KRemove this unused import 'com.example.dietiEstates.model.AccountSemplice'.(îÍ®üûÿÿÿÿ
+d
+java:S1128"IRemove this unused import 'com.example.dietiEstates.service.AuthService'.(ŽžÝ£ùÿÿÿÿ
