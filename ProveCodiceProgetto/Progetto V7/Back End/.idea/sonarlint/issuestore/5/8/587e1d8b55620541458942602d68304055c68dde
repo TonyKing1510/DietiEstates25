@@ -1,0 +1,14 @@
+
+@	java:S106-"+Replace this use of System.out by a logger.(”¦¿‰
+B
+java:S18740",Remove this use of "stop"; it is deprecated.(ƒþ¸Œ
+Q
+java:S1128";Remove this unused import 'com.cloudinary.api.ApiResponse'.(¾‘ŽÓ
+A
+java:S1128"+Remove this unused import 'com.cloudinary'.(æù´Ï
+X
+java:S1128"=Remove this unused import 'com.cloudinary.utils.ObjectUtils'.(§…ŽŸøÿÿÿÿ
+Y
+java:S1128	">Remove this unused import 'io.github.cdimascio.dotenv.Dotenv'.(ÝŽ€Çûÿÿÿÿ
+E
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ

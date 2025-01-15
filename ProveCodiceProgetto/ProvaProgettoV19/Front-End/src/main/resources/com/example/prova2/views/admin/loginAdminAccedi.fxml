@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="844.0" prefWidth="1540.0" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/" fx:controller="com.example.prova2.controller.AccediAdminController">
+   <children>
+      <AnchorPane prefHeight="844.0" prefWidth="1540.0" styleClass="gradient-backgrounds2" stylesheets="@../../css/style.css">
+         <children>
+            <Pane layoutX="735.0" layoutY="186.0" prefHeight="424.0" prefWidth="554.0" style="-fx-background-radius: 20;" styleClass="container2" stylesheets="@../../css/style.css">
+               <children>
+                  <Label layoutX="102.0" layoutY="14.0" prefHeight="27.0" prefWidth="411.0" text="Benvenuto in DietiEstates25Pro" textFill="#f3f6f4">
+                     <font>
+                        <Font name="System Bold Italic" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="80.0" layoutY="64.0" prefHeight="41.0" prefWidth="406.0" text="Per accedere a DietiEstates25Pro si prega di inserire le credenziali nei riquadri qui sotto" textAlignment="CENTER" textFill="#f3f6f4" wrapText="true" />
+                  <TextField fx:id="usernameTextField" layoutX="114.0" layoutY="152.0" onMouseClicked="#eliminaMessaggioDiErroreUsr" prefHeight="36.0" prefWidth="318.0" styleClass="textField">
+                     <font>
+                        <Font size="13.0" />
+                     </font></TextField>
+                  <Label layoutX="113.0" layoutY="112.0" prefHeight="54.0" prefWidth="96.0" text="Username" textFill="#f3f6f4">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="114.0" layoutY="228.0" text="Password" textFill="#f3f6f4">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="bottoneAccedi" layoutX="396.0" layoutY="365.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="134.0" styleClass="bottoneLoginAdmin" text="Accedi" textFill="WHITE" onAction="#accedi" />
+                  <Label fx:id="errorLabel" layoutX="120.0" layoutY="191.0" prefHeight="17.0" prefWidth="270.0" text="Si prega di compilare questo campo!" textFill="#e10c0c" visible="false">
+                     <font>
+                        <Font size="13.0" />
+                     </font></Label>
+                  <Label fx:id="compilaPassword" layoutX="120.0" layoutY="295.0" prefHeight="17.0" prefWidth="270.0" text="Si prega di compilare questo campo!" textFill="#e10c0c" visible="false">
+                     <font>
+                        <Font size="13.0" />
+                     </font></Label>
+                  <PasswordField fx:id="passwordTextField" layoutX="114.0" layoutY="256.0" onMouseClicked="#eliminaMessaggioDiErrorePass" prefHeight="36.0" prefWidth="318.0" styleClass="textField">
+                     <font>
+                        <Font size="13.0" />
+                     </font></PasswordField>
+                  <Button fx:id="pulisciCampi" layoutX="27.0" layoutY="365.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="134.0" styleClass="bottoneTornaIndietro" text="Pulisci campi" textFill="WHITE" />
+               </children>
+            </Pane>
+            <Label layoutX="143.0" layoutY="36.0" prefHeight="37.0" prefWidth="274.0" text="DietiEstates25Pro" textFill="#f3f6f4">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font>
+            </Label>
+            <Pane layoutX="92.0" layoutY="219.0" prefHeight="365.0" prefWidth="376.0" style="-fx-border-radius: 10; -fx-background-radius: 20;" styleClass="container" stylesheets="@../../css/style.css">
+               <children>
+                  <VBox alignment="CENTER" layoutX="7.0" layoutY="4.0" prefHeight="346.0" prefWidth="362.0">
+                     <children>
+                        <ImageView fitHeight="95.0" fitWidth="96.0">
+                           <image>
+                              <Image url="@../../images/icons8-vendere-l'immobile-90.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="71.0" prefWidth="318.0" text="Pubblica i tuoi annunci sul portale emergente più grande d'Italia." textAlignment="CENTER" textFill="#f3f6f4" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="53.0" prefWidth="334.0" text="Accedi ad DietiEstates25Pro e moltiplica i tuoi affari scelto da oltre 1000 agenti immobiliari." textAlignment="CENTER" textFill="#f3f6f4" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </Pane>
+            <Button fx:id="bottoneTornaAllaHome" layoutX="14.0" layoutY="17.0" mnemonicParsing="false" onAction="#tornaHome" prefHeight="37.0" prefWidth="118.0" style="-fx-background-color: transparent; -fx-cursor: hand;" textFill="#011638">
+               <graphic>
+                  <ImageView fitHeight="69.0" fitWidth="110.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/Immagine132.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView fitHeight="95.0" fitWidth="128.0" layoutX="1404.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/Immagine3.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>

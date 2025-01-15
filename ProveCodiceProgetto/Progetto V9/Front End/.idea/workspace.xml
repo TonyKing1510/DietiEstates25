@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da01186d-cf87-4107-b96a-d3f972578e4f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/prova2/requester/NotificationsRequester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/Notifications.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Progetto V7/Front End/src/main/resources/com/example/prova2/loginAdmin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Progetto V7/Front End/src/main/resources/com/example/prova2/loginAdmin.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/338943301f8655ce85735c0bbca442f101ca3b11" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/338943301f8655ce85735c0bbca442f101ca3b11" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5ae1e1f1bcc9ec1a708b4a8ed15dbfedc0b137ef" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5ae1e1f1bcc9ec1a708b4a8ed15dbfedc0b137ef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/795b0466587d142aeac23ab9bd56a892323d2e19" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/795b0466587d142aeac23ab9bd56a892323d2e19" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9ab2c2a6f2b6910c260e9d39b3672b69be1719ea" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9ab2c2a6f2b6910c260e9d39b3672b69be1719ea" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/6/a694f1868fc747857e63b9cc4dc2444ecb2b3098" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/6/a694f1868fc747857e63b9cc4dc2444ecb2b3098" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/ca6a3b0138aaad75e54dcf844d70a85dcff2de3a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/ca6a3b0138aaad75e54dcf844d70a85dcff2de3a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d257c0a7f09ecd7da09d5383c23d591a0482f0e6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d257c0a7f09ecd7da09d5383c23d591a0482f0e6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/prova2/controller/DashboardAgenteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/prova2/controller/DashboardAgenteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/prova2/controller/DashboardAmministratore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/prova2/controller/DashboardAmministratoreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/prova2/controller/LoginAmministratoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/prova2/controller/LoginAmministratoreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/prova2/model/AccountAmministratore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/prova2/model/AccountAmministratore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/prova2/model/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/prova2/model/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/prova2/model/Agenzia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/prova2/model/Agenzia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/prova2/model/GestoreAgenziaImmobiliare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/prova2/model/GestoreAgenziaImmobiliare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/prova2/model/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/prova2/model/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/prova2/model/Notifica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/prova2/model/Notifica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/prova2/model/Utente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/prova2/model/Utente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/prova2/requester/LoginRequester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/prova2/requester/LoginRequester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/prova2/requester/ReqNot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/prova2/utility/ButtonFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/prova2/utility/ButtonFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/prova2/view/DashboardAmministratore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/prova2/view/DashboardAmministratore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/prova2/dashboardAmministratore.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/prova2/dashboardAmministratore.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/prova2/loginAdmin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/prova2/loginAdmin.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/LoginCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/MyResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/Not.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/dao/AccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/dao/AccountDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/dao/AccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/dao/AccountDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/dao/ImageDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/dao/ImageDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/dao/NotDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/dao/NotDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/dao/NotDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/dao/NotDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/model/AccountAmministratore.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/model/AccountAmministratore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/model/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/model/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/model/Agenzia.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/model/Agenzia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/model/GestoreAgenziaImmobiliare.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/model/GestoreAgenziaImmobiliare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/model/Notifica.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/model/Notifica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/model/Utente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/model/Utente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/service/GetNotService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/service/GetNotService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/service/ImageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Back End/src/main/java/it/unina/webtech/service/ImageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/.idea/sonarlint/issuestore/0/1/01cd08881ac1cfbd09836d262f36b5f103bf2aef" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/.idea/sonarlint/issuestore/0/1/01cd08881ac1cfbd09836d262f36b5f103bf2aef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/.idea/sonarlint/issuestore/7/9/7946e0ff9a3ea8ad4a1d541301ea36fd3d07883b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/.idea/sonarlint/issuestore/a/2/a254176a66a5fad617487c3d9ca5dbcb48304d82" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/.idea/sonarlint/issuestore/c/a/ca6a3b0138aaad75e54dcf844d70a85dcff2de3a" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/.idea/sonarlint/issuestore/c/a/ca6a3b0138aaad75e54dcf844d70a85dcff2de3a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/.idea/sonarlint/issuestore/c/b/cb5a26bb81bdc30f1f65ba7a1a200546587b11f7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/.idea/sonarlint/issuestore/f/2/f23e4dbe6efd9a35f975962d39032f56e9f1d966" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/.idea/sonarlint/securityhotspotstore/7/9/7946e0ff9a3ea8ad4a1d541301ea36fd3d07883b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/.idea/sonarlint/securityhotspotstore/a/2/a254176a66a5fad617487c3d9ca5dbcb48304d82" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/.idea/sonarlint/securityhotspotstore/c/b/cb5a26bb81bdc30f1f65ba7a1a200546587b11f7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/.idea/sonarlint/securityhotspotstore/f/2/f23e4dbe6efd9a35f975962d39032f56e9f1d966" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/java/com/example/prova2/controller/CreaAnnuncioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/java/com/example/prova2/controller/CreaAnnuncioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/java/com/example/prova2/controller/DashboardAgenteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/java/com/example/prova2/controller/DashboardAgenteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/java/com/example/prova2/controller/DashboardAmministratore.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/java/com/example/prova2/controller/DashboardAmministratore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/java/com/example/prova2/controller/HomePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/java/com/example/prova2/controller/HomePageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/java/com/example/prova2/controller/LoginAgenteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/java/com/example/prova2/controller/LoginAgenteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/java/com/example/prova2/controller/LoginAmministratoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/java/com/example/prova2/controller/LoginAmministratoreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/java/com/example/prova2/requester/ReqNot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/java/com/example/prova2/requester/ReqNot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/java/com/example/prova2/view/DashboardAmministratore.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/java/com/example/prova2/view/DashboardAmministratore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/java/com/example/prova2/view/LoginAmministratore.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/java/com/example/prova2/view/LoginAmministratore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/java/com/example/prova2/view/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/java/com/example/prova2/view/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/resources/com/example/prova2/ScrollPaneCss.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/resources/com/example/prova2/ScrollPaneCss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/resources/com/example/prova2/creaAnnuncio.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/resources/com/example/prova2/creaAnnuncio.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/resources/com/example/prova2/dashboardAgente.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/resources/com/example/prova2/dashboardAgente.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/resources/com/example/prova2/dashboardAmministratore.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/resources/com/example/prova2/dashboardAmministratore.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/resources/com/example/prova2/loginAgente.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/resources/com/example/prova2/loginAgente.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/resources/com/example/prova2/loginPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/resources/com/example/prova2/loginPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/resources/com/example/prova2/schermataHome.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProvaProgettoV5.1/Front End/src/main/resources/com/example/prova2/schermataHome.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../documentazione/ModelloLogicoDietiEstates25.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../documentazione/ModelloLogicoDietiEstates25.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2q1FmCKKqxpp0QWkcBP1P28DDgF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HomePageLogin.executor": "Run",
+    "Application.LoginPage.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "progetto__M.A.M.M.T",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Utente/Desktop/Dieti_Estates25/Project-INGSW-24-25/ProveCodiceProgetto/Progetto V8/Front End",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Utente\Desktop\Dieti_Estates25\Project-INGSW-24-25\ProveCodiceProgetto\ProvaProgettoV5.1\Front End\src\main\resources\com\example\prova2\images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="LoginPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.prova2.view.LoginPage" />
+      <module name="Prova2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.prova2.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LoginPage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da01186d-cf87-4107-b96a-d3f972578e4f" name="Changes" comment="" />
+      <created>1733822330557</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733822330557</updated>
+      <workItem from="1733822331597" duration="5251000" />
+      <workItem from="1733830735717" duration="3472000" />
+      <workItem from="1733917550075" duration="273000" />
+      <workItem from="1734085495331" duration="5210000" />
+      <workItem from="1734112083190" duration="5711000" />
+      <workItem from="1734129437613" duration="1263000" />
+      <workItem from="1734171440033" duration="1290000" />
+      <workItem from="1734173024242" duration="3600000" />
+      <workItem from="1735025860295" duration="11905000" />
+      <workItem from="1735125151727" duration="19237000" />
+      <workItem from="1735222575547" duration="30243000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

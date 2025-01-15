@@ -1,0 +1,8 @@
+
+G	java:S106"+Replace this use of System.out by a logger.(‡ÖÏî8½Î‚¬¼2
+V
+java:S1128"9Remove this unused import 'it.unina.webtech.model.Image'.(í±Í¨8¿Î‚¬¼2
+F
+java:S1128")Remove this unused import 'java.io.File'.(†Ğ¥Å8¿Î‚¬¼2
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÀÎ‚¬¼2

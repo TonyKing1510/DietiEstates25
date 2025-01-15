@@ -1,0 +1,29 @@
+
+l	java:S116"WRename this field "NumeroStanze" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò‹ˆ¤
+M
+java:S1068"7Remove this unused "descrizioneImmobile" private field.(ï§èÀ
+E
+java:S1068"/Remove this unused "longitudine" private field.(ÄàÊï
+I
+java:S1068
+".Remove this unused "latitudine" private field.(Ä¾Ø´úÿÿÿÿ
+C
+java:S1068"(Remove this unused "foto" private field.(ÖÖùÀùÿÿÿÿ
+D
+java:S1068".Remove this unused "dimensione" private field.(ˆ²‹«
+B
+java:S1068"'Remove this unused "via" private field.(¿ÊÆ‚üÿÿÿÿ
+E
+java:S1068"*Remove this unused "comune" private field.(ˆÑ¦úÿÿÿÿ
+E
+java:S1068"0Remove this unused "numeroCivico" private field.(íêÜy
+F
+java:S1068"0Remove this unused "NumeroStanze" private field.(Ò‹ˆ¤
+>
+java:S1068")Remove this unused "piano" private field.(éÏÆT
+O
+java:S1068"4Remove this unused "classeEnergetica" private field.(§æµøøÿÿÿÿ
+H
+java:S1068"2Remove this unused "visiteImmobile" private field.(Ïü†
+L
+java:S1068"6Remove this unused "agenteProprietario" private field.(ü¬Üç

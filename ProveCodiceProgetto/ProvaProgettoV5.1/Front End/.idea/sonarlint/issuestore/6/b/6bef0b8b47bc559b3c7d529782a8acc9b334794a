@@ -1,0 +1,5 @@
+
+F	java:S106"+Replace this use of System.out by a logger.(έ®8Μ¨νιΏ2
+t
+java:S27370"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(φ™ϋ8Ϋ¨νιΏ2
+F	java:S1063"+Replace this use of System.out by a logger.(λΞ8έ¨νιΏ2
