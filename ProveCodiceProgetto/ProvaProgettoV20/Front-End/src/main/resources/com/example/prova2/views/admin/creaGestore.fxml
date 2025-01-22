@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.prova2.controller.CreaGestoreController">
+   <content>
+      <Pane styleClass="gradient-backgrounds" stylesheets="@../../css/style.css">
+         <children>
+            <Pane layoutY="-1.0" prefHeight="686.0" prefWidth="1520.0">
+               <children>
+                  <Button fx:id="tornaIndietroBottone" layoutX="-6.0" layoutY="-4.0" mnemonicParsing="false" onAction="#tornaIndietro" prefHeight="80.0" prefWidth="88.0" style="-fx-background-color: transparent; -fx-cursor: hand">
+                     <graphic>
+                        <ImageView fitHeight="62.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../images/Immagine132.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Label layoutX="76.0" layoutY="19.0" prefHeight="27.0" prefWidth="213.0" text="Crea gestori" textFill="#f3f6f4">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Pane layoutX="833.0" layoutY="50.0" prefHeight="782.0" prefWidth="537.0" style="-fx-background-radius: 20;" styleClass="container2" stylesheets="@../../css/style.css">
+                     <children>
+                        <Label layoutX="154.0" layoutY="-30.0" prefHeight="113.0" prefWidth="318.0" text="Crea i tuoi gestori!" textAlignment="CENTER" textFill="#f3f6f4" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="25.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="textFieldNome" layoutX="34.0" layoutY="125.0" onKeyTyped="#levaMessaggioDiErroreNome" prefHeight="34.0" prefWidth="299.0" styleClass="textField">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                        <Label layoutX="34.0" layoutY="98.0" prefHeight="33.0" prefWidth="75.0" text="Nome" textAlignment="CENTER" textFill="#f3f6f4" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="textFieldCognome" layoutX="34.0" layoutY="220.0" onKeyTyped="#levaMessaggioDiErroreCognome" prefHeight="34.0" prefWidth="299.0" styleClass="textField">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                        <Label layoutX="34.0" layoutY="193.0" prefHeight="33.0" prefWidth="75.0" text="Cognome" textAlignment="CENTER" textFill="#f3f6f4" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="21.0" layoutY="59.0" prefHeight="33.0" prefWidth="434.0" text="1.Inserisci i dati anagrafici del gestore" textAlignment="CENTER" textFill="#f3f6f4" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="textFieldNumeroTelefono" layoutX="109.0" layoutY="404.0" onKeyTyped="#levaMessaggioDiErroreTelefono" prefHeight="34.0" prefWidth="225.0" styleClass="textField">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                        <TextField disable="true" layoutX="34.0" layoutY="404.0" prefHeight="34.0" prefWidth="58.0" text="+39" />
+                        <Label layoutX="34.0" layoutY="378.0" prefHeight="33.0" prefWidth="75.0" text="Prefisso" textAlignment="CENTER" textFill="#f3f6f4" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="21.0" layoutY="476.0" prefHeight="33.0" prefWidth="434.0" text="2.Inserisci i dati per il suo account" textAlignment="CENTER" textFill="#f3f6f4" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="textFieldEmail" layoutX="34.0" layoutY="542.0" onKeyTyped="#levaMessaggioDiErroreEmail" prefHeight="34.0" prefWidth="299.0" styleClass="textField">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="textFieldRiPassword" layoutX="35.0" layoutY="580.0" prefHeight="33.0" prefWidth="299.0" promptText="Inserisci una password" styleClass="textField" visible="false">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </TextField>
+                        <Label layoutX="34.0" layoutY="516.0" prefHeight="33.0" prefWidth="75.0" text="Email" textAlignment="CENTER" textFill="#f3f6f4" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="34.0" layoutY="606.0" prefHeight="33.0" prefWidth="75.0" text="Password" textAlignment="CENTER" textFill="#f3f6f4" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="109.0" layoutY="378.0" prefHeight="33.0" prefWidth="75.0" text="Telefono" textAlignment="CENTER" textFill="#f3f6f4" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="buttonCrea" layoutX="378.0" layoutY="722.0" mnemonicParsing="false" onAction="#registraCliente" prefHeight="46.0" prefWidth="118.0" styleClass="bottoneLoginAdmin" text="Crea">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="30.0" layoutY="722.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="124.0" styleClass="bottoneTornaIndietro" text="Ripulisci campi" />
+                        <PasswordField fx:id="textFieldPassword" layoutX="35.0" layoutY="632.0" onKeyTyped="#levaMessaggioDiErrorePassword" prefHeight="34.0" prefWidth="299.0" styleClass="textField">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </PasswordField>
+                        <Label fx:id="erroreNome" layoutX="35.0" layoutY="158.0" text="Si prega di inserire un nome" textFill="#a10303" visible="false">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="erroreCognome" layoutX="35.0" layoutY="253.0" text="Si prega di inserire un nome" textFill="#a10303" visible="false">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="erroreTelefono" layoutX="109.0" layoutY="437.0" text="Si prega di inserire un nome" textFill="#a10303" visible="false">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="erroreEmail" layoutX="35.0" layoutY="574.0" text="Si prega di inserire un nome" textFill="#a10303" visible="false">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="errorePassword" layoutX="34.0" layoutY="666.0" text="Si prega di inserire un nome" textFill="#a10303" visible="false">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="textFieldCf" layoutX="34.0" layoutY="312.0" onKeyTyped="#levaMessaggioDiErroreCF" prefHeight="34.0" prefWidth="299.0" styleClass="textField">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                        <Label layoutX="34.0" layoutY="285.0" prefHeight="33.0" prefWidth="135.0" text="Codice fiscale" textAlignment="CENTER" textFill="#f3f6f4" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="erroreCodiceFiscale" layoutX="35.0" layoutY="345.0" text="Si prega di inserire un nome" textFill="#a10303" visible="false">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="95.0" layoutY="192.0" prefHeight="488.0" prefWidth="551.0" style="-fx-background-radius: 20;" styleClass="container">
+                     <children>
+                        <Label layoutX="47.0" layoutY="-8.0" prefHeight="113.0" prefWidth="478.0" text="Crea i tuoi gestori su DietiEstates25Pro!" textAlignment="CENTER" textFill="#f3f6f4" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="25.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="58.0" layoutY="69.0" prefHeight="113.0" prefWidth="457.0" text="Una volta creati i tuoi gestori possono:" textAlignment="CENTER" textFill="#f3f6f4" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <ImageView layoutX="50.0" layoutY="183.0">
+                           <image>
+                              <Image url="@../../images/icons8-done-64 (2).png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="114.0" layoutY="159.0" prefHeight="113.0" prefWidth="457.0" text="Accedere alla loro area riservata" textAlignment="CENTER" textFill="#f3f6f4" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="17.0" />
+                           </font>
+                        </Label>
+                        <ImageView layoutX="50.0" layoutY="271.0">
+                           <image>
+                              <Image url="@../../images/icons8-done-64 (2).png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="114.0" layoutY="247.0" prefHeight="113.0" prefWidth="457.0" text="Creare agenti immobiliari" textAlignment="CENTER" textFill="#f3f6f4" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="17.0" />
+                           </font>
+                        </Label>
+                        <ImageView layoutX="50.0" layoutY="360.0">
+                           <image>
+                              <Image url="@../../images/icons8-done-64 (2).png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="114.0" layoutY="336.0" prefHeight="113.0" prefWidth="457.0" text="Aiutarti a coordinare le azioni della tua azienda" textAlignment="CENTER" textFill="#f3f6f4" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="17.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </children></Pane>
+            <ImageView fitHeight="95.0" fitWidth="128.0" layoutX="1368.0" layoutY="-11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/Immagine3.png" />
+               </image>
+            </ImageView>
+            <Line endX="899.9998779296875" layoutX="448.0" layoutY="33.0" startX="-236.80001831054688" startY="3.814697265625E-6" stroke="#f3f6f4" />
+            <TextFlow layoutX="501.0" layoutY="760.0" prefHeight="200.0" prefWidth="200.0" />
+         </children>
+      </Pane>
+   </content>
+</ScrollPane>

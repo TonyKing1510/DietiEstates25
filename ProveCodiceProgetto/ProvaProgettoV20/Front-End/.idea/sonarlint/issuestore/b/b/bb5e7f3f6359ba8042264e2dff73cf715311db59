@@ -1,0 +1,12 @@
+
+
+java:S1186%"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(íÃ‰8ÛáÊ¾È2
+V
+java:S1068
+"4Remove this unused "recensioniAgente" private field.(ó¾á²şÿÿÿÿ8›óÇ¾È2
+P
+java:S1068"3Remove this unused "notificheAgente" private field.(Ş„8›óÇ¾È2
+V
+java:S1068"4Remove this unused "immobiliCaricati" private field.(©Õ ‰şÿÿÿÿ8›óÇ¾È2
+R
+java:S1068"0Remove this unused "visiteAgente" private field.(ªñÕûÿÿÿÿ8›óÇ¾È2
