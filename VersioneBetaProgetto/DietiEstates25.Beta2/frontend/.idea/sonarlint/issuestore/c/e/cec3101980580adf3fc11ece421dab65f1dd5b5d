@@ -1,9 +1,0 @@
-
-}
-java:S1104@"[Make passwordVecchia a static final constant or non-public and provide accessors if needed.(Åôıïûÿÿÿÿ8Ì¦ Ò2
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¥•Óùûÿÿÿÿ8ŒÁ­—Ò2
-M	java:S106™"+Replace this use of System.out by a logger.(î¸ıÿÿÿÿ8ˆÙ’ÍÓ2
-I
-java:S1602Á",Remove useless curly braces around statement(á×æP8Ã…Â—Ò2
-J
-java:S1602Ë",Remove useless curly braces around statement(š†¦®8Ä…Â—Ò2
