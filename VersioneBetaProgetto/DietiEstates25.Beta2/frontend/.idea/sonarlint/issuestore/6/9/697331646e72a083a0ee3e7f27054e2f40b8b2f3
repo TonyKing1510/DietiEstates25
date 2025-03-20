@@ -1,0 +1,17 @@
+
+h	java:S112°"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ8ŠÎë•Ô2
+q
+java:S1192‚"NDefine a constant instead of duplicating this literal "Stato Vendita" 3 times.(”òÚÂúÿÿÿÿ8®Îë•Ô2
+u
+java:S1192†"RDefine a constant instead of duplicating this literal "Classe energetica" 3 times.(ƒÙŒŸıÿÿÿÿ8³Îë•Ô2
+r	java:S117j"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡Áİ¹úÿÿÿÿ8½Îë•Ô2
+r	java:S117j"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡Áİ¹úÿÿÿÿ8¾Îë•Ô2
+s	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë±Öôøÿÿÿÿ8¿Îë•Ô2
+s	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë±Öôøÿÿÿÿ8¿Îë•Ô2
+n	java:S117“"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä®š©8ò³ŠÄÑ2
+k	java:S101¸"NRename this record name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(÷Å¹±8ËÎë•Ô2
+s	java:S116:"XRename this field "textLocalitÃ " to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢âáJ8Í´ŠÄÑ2
+M	java:S106å"+Replace this use of System.out by a logger.(ŞÆ­Ûşÿÿÿÿ8àÆÄÑ2
+H	java:S106ò"+Replace this use of System.out by a logger.(£ÆÏÁ8Ã¡«ÄÑ2
+N
+java:S1068E",Remove this unused "executor" private field.(³É¶¡ùÿÿÿÿ8ù´ŠÄÑ2

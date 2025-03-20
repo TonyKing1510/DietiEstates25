@@ -1,0 +1,10 @@
+
+m
+java:S1192´"JDefine a constant instead of duplicating this literal "Qualsiasi" 8 times.(ÏÒ÷¨üÿÿÿÿ8³öÇ•Ô2
+‹
+java:S1192·"mDefine a constant instead of duplicating this literal "-fx-text-fill: #011638; -fx-font-size: 20px;" 6 times.(Œ¶€Ì8½öÇ•Ô2
+L	java:S106f"+Replace this use of System.out by a logger.(å¸•‡üÿÿÿÿ8ÀøÇ•Ô2
+H	java:S106Î"+Replace this use of System.out by a logger.(ÿâÕ8ïøÇ•Ô2
+M	java:S106·"+Replace this use of System.out by a logger.(¢ˆ‹äúÿÿÿÿ8†ùÇ•Ô2
+h
+java:S1128	"FRemove this unused import 'com.example.prova2.service.ClienteService'.(É«òôÿÿÿÿÿ8ÊÄÈ•Ô2

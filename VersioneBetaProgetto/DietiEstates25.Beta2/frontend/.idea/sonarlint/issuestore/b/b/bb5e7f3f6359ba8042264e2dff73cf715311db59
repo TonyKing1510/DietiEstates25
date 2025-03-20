@@ -1,0 +1,21 @@
+
+W
+java:S1161#":Add the "@Override" annotation above this method signature(²öıı8¢ÚÖÑ2
+W
+java:S1161(":Add the "@Override" annotation above this method signature(à±à»8¢ÚÖÑ2
+\
+java:S1161,":Add the "@Override" annotation above this method signature(‘ŠÍ–ÿÿÿÿÿ8¢ÚÖÑ2
+W
+java:S1161S":Add the "@Override" annotation above this method signature(œÃ ş8¢ÚÖÑ2
+\
+java:S1161W":Add the "@Override" annotation above this method signature(Â«ºüÿÿÿÿ8¢ÚÖÑ2
+R
+java:S1128"5Remove this unused import 'javafx.scene.image.Image'.(‰¿½Ç8¢ÚÖÑ2
+V
+java:S1068"4Remove this unused "recensioniAgente" private field.(ó¾á²şÿÿÿÿ8¢ÚÖÑ2
+P
+java:S1068"3Remove this unused "notificheAgente" private field.(Ş„8¢ÚÖÑ2
+V
+java:S1068"4Remove this unused "immobiliCaricati" private field.(©Õ ‰şÿÿÿÿ8¢ÚÖÑ2
+R
+java:S1068"0Remove this unused "visiteAgente" private field.(ªñÕûÿÿÿÿ8¢ÚÖÑ2
