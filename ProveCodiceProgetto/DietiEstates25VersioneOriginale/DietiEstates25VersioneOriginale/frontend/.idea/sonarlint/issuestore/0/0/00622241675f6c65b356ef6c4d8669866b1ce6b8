@@ -1,0 +1,11 @@
+
+L
+java:S1066I"/Merge this if statement with the enclosing one.(™Η„Θ8ίΔΦ2
+|
+java:S1104%"ZMake panePrecedente a static final constant or non-public and provide accessors if needed.(ει•ΰόÿÿÿÿ8ξΏΦ2
+T
+java:S2589I"7Remove this expression which always evaluates to "true"(™Η„Θ8›ΔΦ2
+
+java:S1186)"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(£ωΫc8‘ΏΦ2
+O
+java:S1172b"-Remove this unused method parameter "button".(―ωϊÿÿÿÿ8½›ΔΦ2
